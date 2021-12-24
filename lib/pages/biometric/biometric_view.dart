@@ -22,11 +22,12 @@ class BiometricPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Welcome',
+                'Biometric Login!!!!',
                 textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 20, color: Colors.black, fontWeight: FontWeight.bold),
               ),
               const SizedBox(
-                height: 16,
+                height: 20,
               ),
           Obx(() {
             if (biometricLogicController.isBiometricsSupported) {
